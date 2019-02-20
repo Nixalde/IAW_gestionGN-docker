@@ -65,7 +65,7 @@ WSGI_APPLICATION = 'gestion.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-  DATABASES = {
+DATABASES = {
       'default': {
           'ENGINE': 'mysql.connector.django',
           'NAME': 'gestionGN',
@@ -113,7 +113,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/var/www/iaw_gestionGN/static'
+#STATIC_ROOT = '/var/www/iaw_gestionGN/static'
 
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
